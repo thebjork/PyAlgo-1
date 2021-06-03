@@ -3,15 +3,11 @@ Gray Code
 implementation
 """
 
-def gray_code(number: int):
+def gray_code(number: int) -> list:
     """
     Gray Code is an ordering of the binary numeral
     system such that two successive values differ
     in only one bit
-
-    Params
-    :number:    =>  number upto which gray code has
-                    to be calculated
     """
     if number <= 0:
         return -1

@@ -2,7 +2,8 @@
     "math": {
         "Available functions": [
             "Sieve of Eratosthenes",
-            "Factorial"
+            "Factorial",
+            "Gray Code"
         ]
     },
     "information": {

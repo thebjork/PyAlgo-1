@@ -14,6 +14,10 @@ app = FastAPI()
 def status() -> str:
     return "PyAlgo API is working"
 
+@app.get("/info")
+def info():
+    return JSON["information"]
+
 @app.get("/math")
 def functions() -> list:
     return JSON["math"]

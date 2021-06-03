@@ -3,14 +3,10 @@ Factorial of numbers
 implementation
 """
 
-def factorial(number: int):
+def factorial(number: int) -> int:
     """
     Calculating factorial of a number using
     prime decomposition method
-
-    Params
-    :number:    =>  number whose factorial has
-                    to be calculated
     """
     prime: list = [True] * (number + 1)
     result: int = 1
