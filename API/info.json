@@ -1,0 +1,13 @@
+{
+    "math": {
+        "Available functions": [
+            "Sieve of Eratosthenes",
+            "Factorial"
+        ]
+    },
+    "information": {
+        "Author": "Devansh Singh",
+        "Source Code": "https://github.com/Devansh3712/PyAlgo",
+        "Last Updated": "03-06-2021"
+    }
+}
