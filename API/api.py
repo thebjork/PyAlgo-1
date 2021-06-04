@@ -71,5 +71,5 @@ def solve_gcd(num1: int, num2: int) -> int:
 @app.get("/math/totient")
 def solve_gcd(number: int) -> int:
 
-    result = pyalgo.math.euler.gcd(number)
+    result = pyalgo.math.euler.totient(number)
     return result
