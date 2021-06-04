@@ -24,3 +24,11 @@ pyalgo.math.sieve
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.math.euler
+-----------------
+
+.. automodule:: pyalgo.math.euler
+   :members:
+   :undoc-members:
+   :show-inheritance:

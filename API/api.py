@@ -1,5 +1,6 @@
 import os
 import json
+from unittest import result
 import pyalgo
 from fastapi import FastAPI
 
@@ -54,3 +55,21 @@ def solve_gray_code(number: int) -> list:
     else:
         result = pyalgo.math.gray_code.gray_code(number)
         return result
+
+@app.get("/math/gcd")
+def solve_gcd(num1: int, num2: int) -> int:
+
+    result = pyalgo.math.euler.gcd(num1, num2)
+    return result
+
+@app.get("/math/lcm")
+def solve_gcd(num1: int, num2: int) -> int:
+
+    result = pyalgo.math.euler.lcm(num1, num2)
+    return result
+
+@app.get("/math/totient")
+def solve_gcd(number: int) -> int:
+
+    result = pyalgo.math.euler.gcd(number)
+    return result

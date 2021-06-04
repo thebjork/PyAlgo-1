@@ -3,12 +3,15 @@
         "Available functions": [
             "Sieve of Eratosthenes",
             "Factorial",
-            "Gray Code"
+            "Gray Code",
+            "Greatest Common Divisor",
+            "Least Common Multiple",
+            "Euler's Totient Function"
         ]
     },
     "information": {
         "Author": "Devansh Singh",
         "Source Code": "https://github.com/Devansh3712/PyAlgo",
-        "Last Updated": "03-06-2021"
+        "Last Updated": "04-06-2021"
     }
 }
