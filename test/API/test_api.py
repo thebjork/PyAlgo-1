@@ -41,5 +41,10 @@ class TestAPI(unittest.TestCase):
         RESULT = 4
         self.assertEqual(RESULT, DATA.json())
 
+    def test_power(self):
+        DATA = requests.get(url = f"{URL}/math/power?num1=50&num2=25")
+        RESULT = 2980232238769531250000000000000000000000000
+        self.assertEqual(RESULT, DATA.json())
+
 if __name__ == "__main__":
     unittest.main()

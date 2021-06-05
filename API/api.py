@@ -63,13 +63,19 @@ def solve_gcd(num1: int, num2: int) -> int:
     return result
 
 @app.get("/math/lcm")
-def solve_gcd(num1: int, num2: int) -> int:
+def solve_lcm(num1: int, num2: int) -> int:
 
     result = pyalgo.math.euler.lcm(num1, num2)
     return result
 
 @app.get("/math/totient")
-def solve_gcd(number: int) -> int:
+def solve_totient(number: int) -> int:
 
     result = pyalgo.math.euler.totient(number)
+    return result
+
+@app.get("/math/power")
+def solve_power(num1: int, num2: int) -> int:
+
+    result = pyalgo.math.power.power(num1, num2)
     return result

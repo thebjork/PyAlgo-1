@@ -6,12 +6,13 @@
             "Gray Code",
             "Greatest Common Divisor",
             "Least Common Multiple",
-            "Euler's Totient Function"
+            "Euler's Totient Function",
+            "Power"
         ]
     },
     "information": {
         "Author": "Devansh Singh",
         "Source Code": "https://github.com/Devansh3712/PyAlgo",
-        "Last Updated": "04-06-2021"
+        "Last Updated": "05-06-2021"
     }
 }

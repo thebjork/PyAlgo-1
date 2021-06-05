@@ -32,3 +32,12 @@ pyalgo.math.euler
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.math.power
+-----------------
+
+.. automodule:: pyalgo.math.power
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
