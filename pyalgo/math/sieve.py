@@ -25,7 +25,7 @@ def sieve(number: int) -> list:
         num2 += 1
         num3 += 2
 
-    while (num2 < num1):
+    while num2 < num1:
         if arr[num2]:
             result.append(num3)
         num2 += 1
