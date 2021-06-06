@@ -1,9 +1,9 @@
 import pyalgo.math.factorial
 import unittest
 
-class TestSieve(unittest.TestCase):
+class TestFacroial(unittest.TestCase):
 
-    def test_sieve(self):
+    def test_factorial(self):
 
         result = pyalgo.math.factorial.factorial(50)
         answer = 30414093201713378043612608166064768844377641568960512000000000000

@@ -51,7 +51,7 @@ def solve_gray_code(number: int) -> list:
 
     if number <= 0:
         return [None]
-    
+
     else:
         result = pyalgo.math.gray_code.gray_code(number)
         return result

@@ -1,9 +1,9 @@
 import pyalgo.math.power
 import unittest
 
-class TestSieve(unittest.TestCase):
+class TestPower(unittest.TestCase):
 
-    def test_sieve(self):
+    def test_power(self):
 
         result = pyalgo.math.power.power(50, 25)
         answer = 2980232238769531250000000000000000000000000

@@ -5,7 +5,7 @@ implementation
 
 def sieve(number: int) -> list:
     """
-    the sieve of Eratosthenes is an algorithm for
+    The Sieve of Eratosthenes is an algorithm for
     finding all prime numbers up to any given limit
     """
     num1: int = (number - 1) // 2

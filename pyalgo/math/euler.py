@@ -33,7 +33,7 @@ def totient(number: int) -> int:
     """
     result = number
     p = 2
-    
+
     while p ** 2 <= number:
         if number % p == 0:
             while number % p == 0:
